@@ -478,9 +478,10 @@ header nav ul li a:hover {
 #H,
 #I {
     background-color: #fff;
-    width: 22vw;
-    height: 22vw;
+    width: 300px;
+    height: 300px;
     margin: 10px;
+    text-align: center;
 
 }
 

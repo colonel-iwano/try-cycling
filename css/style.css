@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 @font-face {
@@ -12,13 +13,10 @@ img {
     width: 300px;
 }
 
-.mv-img {
-    text-align: center;
-}
 
-.mv-img img {
-    width: 800px;
-    transform: rotate(10deg)
+
+
+
 }
 
 .main {
@@ -57,52 +55,207 @@ h2 {
     border-left: solid 10px #fff;
 }
 
+/*main-visual*/
+.main-visual {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.content1 {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.mv-triangle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 14vw;
+    background:
+        linear-gradient(to top right, rgba(255, 255, 255, 0) 50%, #111 50.5%) no-repeat top left/100% 100%
+}
+
 .main-visual h1 {
     transform: rotate(10deg);
-    font-size: 50px;
+    font-size: 70px;
     position: absolute;
     font-weight: 100;
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+
+.main-visual .mv-h3 {
+    transform: rotate(10deg);
+    position: absolute;
+    margin-top: 15vw;
+    margin-left: 5vw;
+}
+
+.main-visual h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.mv-img {
+    text-align: right;
+    margin-right: 10vw;
+
+
+
+}
+
+.mv-img img {
+    width: 50vw;
+    transform: rotate(10deg);
+    margin-top: 10vw;
 }
 
 /*header*/
 header {
-    display: inline-block;
-    background-color: #111;
-    width: 100vw;
-    transform: rotate(10deg);
+    text-align: center;
+    position: relative;
+    padding: 20px 0px;
+    z-index: 1;
+
 
 }
 
+header::before {
+    content: "";
+    position: absolute;
+    top: -3vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #111;
+    transform: skewY(10deg);
+
+}
+
+header nav {}
+
 header nav ul {
     display: block;
+    transform: rotate(10deg);
+    position: absolute;
+    padding-top: 1vw;
+    top: -3vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
 }
 
 header nav ul li {
     list-style: none;
-    margin-right: 30px;
+    margin-right: 50px;
+    padding-left: 10px;
     font-weight: 300;
     font-size: 27px;
     display: inline-block;
-    height: 15vh
+    border-left: solid 5px #ffff66
 }
 
 header nav ul li a {
+
     display: block;
     color: #fff;
     text-decoration: none;
+    transition: 1s;
 }
 
+header nav ul li a:hover {
+    color: #ffff66;
+}
+
+.road-10deg-b {
+    position: relative;
+    height: 5vw;
+    z-index: 1;
+    height: ;
+}
+
+.road-10deg-b::before {
+    content: "";
+    position: absolute;
+    top: -0.1vw;
+    bottom: ;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #111;
+    transform: skewY(10deg);
+    height: 7vw;
+
+}
 
 
 /*content1*/
 #typeofbike {
-    margin-top: 100px;
+    background-color: #fff;
+    position: relative;
+    padding-top: 3vw;
+    padding-bottom: 19vw;
+    overflow: hidden;
+}
+
+
+
+
+/*境目テンプレ*/
+.road--10deg-w {
+    height: 9vw;
+}
+
+#typeofbike {
+    background: #fff;
+}
+
+.road--10deg-w {
+    position: relative;
+    z-index: 0;
+}
+
+.road--10deg-w::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 19vw;
+    transform: skewY(-10deg);
+    transform-origin: bottom left;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+#typeofbike {
+    position: relative;
+    background-color: #fff;
+}
+
+#typeofbike::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 18vw 100vw;
+    border-color: transparent transparent #111 transparent;
 }
 
 /*content2*/
 #typeofroadbike {
     background-color: #111;
-    margin-top: 50px;
+    padding-bottom: 19vw;
+    overflow: hidden;
+
+
 }
 
 #typeofroadbike h2 {
@@ -117,9 +270,66 @@ header nav ul li a {
     color: #fff;
 }
 
+.content2 {
+    width: 80vw;
+    margin: 0 auto;
+
+
+}
+
+/*境目テンプレ*/
+.road-10deg-ba {
+    height: 9vw;
+}
+
+#typeofroadbike {
+    background: #111;
+}
+
+.road-10deg-ba {
+    position: relative;
+    z-index: 0;
+}
+
+.road-10deg-ba::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1.4vw;
+    transform: skewY(10deg);
+    transform-origin: bottom left;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #111;
+}
+
+#typeofroadbike {
+    position: relative;
+}
+
+#typeofroadbike::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18vw 0 0 100vw;
+    border-color: transparent transparent transparent #ffff99;
+}
+
 /*content3*/
 #material {
     background-color: #ffff99;
+    padding-bottom: 19vw;
+    overflow: hidden;
+}
+
+.content3 {
+    width: 80vw;
+    margin: 0 auto;
 }
 
 .info-box {
@@ -138,9 +348,124 @@ header nav ul li a {
     background-color: #111;
 }
 
+.road--10deg-y {
+    height: 9vw;
+}
+
+#typeofbike {
+    background: #fff;
+}
+
+.road--10deg-y {
+    position: relative;
+    z-index: 0;
+}
+
+.road--10deg-y::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 19vw;
+    transform: skewY(-10deg);
+    transform-origin: bottom left;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #ffff99;
+}
+
+#material {
+    position: relative;
+    background-color: #ffff99;
+}
+
+#material::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 18vw 100vw;
+    border-color: transparent transparent #fff transparent;
+}
+
 /*content4*/
+#yes-no {
+    background-color: #fff;
+    margin-bottom: 19vw;
+}
+
+.content4 {
+
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
+    z-index: 100;
+    background-color: #fff;
+
+}
+
+
+
+.road-10deg-w {
+    height: 9vw;
+}
+
+#result {
+    background: #111;
+}
+
+.road-10deg-w {
+    position: relative;
+    z-index: 0;
+}
+
+.road-10deg-w::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 1.4vw;
+    transform: skewY(10deg);
+    transform-origin: bottom left;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+#yes-no {
+    position: relative;
+}
+
+#yes-no::before {
+    content: "";
+    position: absolute;
+    bottom: -19vw;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 18vw 0 0 98.6vw;
+    border-color: transparent transparent transparent #111;
+}
+
+/*content5*/
 #result {
     background-color: #111;
+    padding-bottom: 19vw;
+}
+
+.content5 {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
 }
 
 #A,
@@ -153,4 +478,14 @@ header nav ul li a {
 #H,
 #I {
     background-color: #fff;
+    width: 22vw;
+    height: 22vw;
+    margin: 10px;
+
+}
+
+footer {
+    background: #ffff99;
+    color: #111;
+    text-align: center;
 }

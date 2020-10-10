@@ -9,9 +9,7 @@
     src: url(../font/bifur.ttf) format("truetype")
 }
 
-img {
-    width: 300px;
-}
+
 
 
 
@@ -28,7 +26,7 @@ h1 {
     font-family: bifur;
 }
 
-/*黄色or白のアンダーライン*/
+/*黄色or白のアンダーライン---------------------------------------------*/
 .main-visual h3 {
     display: inline-block;
     background: linear-gradient(transparent 50%, #ffff66 50%);
@@ -55,7 +53,7 @@ h2 {
     border-left: solid 10px #fff;
 }
 
-/*main-visual*/
+/*main-visual-------------------------------------------------*/
 .main-visual {
     width: 100%;
     height: 100vh;
@@ -112,7 +110,7 @@ h2 {
     margin-top: 10vw;
 }
 
-/*header*/
+/*header------------------------------------------------*/
 header {
     text-align: center;
     position: relative;
@@ -193,7 +191,7 @@ header nav ul li a:hover {
 }
 
 
-/*content1*/
+/*content1-----------------------------------------*/
 #typeofbike {
     background-color: #fff;
     position: relative;
@@ -201,6 +199,76 @@ header nav ul li a:hover {
     padding-bottom: 19vw;
     overflow: hidden;
 }
+
+.content1 {
+    margin-top: 8vw;
+}
+
+.content1-info {
+    margin-top: 30px;
+}
+
+.content1 img {
+    width: 150px;
+}
+
+.content1-img {
+    margin-top: 50px;
+    width: 80vw;
+    display: flex;
+}
+
+.content1-img img {
+    width: 90%;
+    display: inline-block;
+}
+
+.image-up {
+    flex: 0 0 60vw;
+    height: 400px;
+
+}
+
+.image-thumbs {
+    flex: 1;
+
+    text-align: center;
+}
+
+.image-thumbs button {
+    border: none;
+    /* 枠線を消す */
+    outline: none;
+    /* クリックしたときに表示される枠線を消す */
+    background: transparent;
+    /* 背景の灰色を消す */
+
+}
+
+.image-thumbnail {
+    margin-left: 10px;
+}
+
+.image-thumbnail:nth-child(n + 3) {
+    margin-top: 10px;
+}
+
+.selected {
+    position: relative;
+
+}
+
+.selected::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff99;
+    opacity: .7;
+}
+
+
 
 
 
@@ -249,7 +317,18 @@ header nav ul li a:hover {
     border-color: transparent transparent #111 transparent;
 }
 
-/*content2*/
+.all,
+.mountain,
+.cross {
+    width: 500px;
+    overflow: hidden;
+}
+
+.content1 h4 {
+    margin-bottom: 10px;
+}
+
+/*content2---------------------------------------------------------*/
 #typeofroadbike {
     background-color: #111;
     padding-bottom: 19vw;
@@ -276,6 +355,89 @@ header nav ul li a:hover {
 
 
 }
+
+.content2 img {
+    width: 300px;
+}
+
+.content2-img {
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 80vw;
+    display: flex;
+}
+
+.content2-img img {
+    width: 90%;
+    display: inline-block;
+}
+
+.image-up-b {
+    flex: 0 0 60vw;
+    height: 400px;
+
+}
+
+.image-thumbs-b {
+    flex: 1;
+    height: 500px;
+    overflow: scroll;
+    text-align: center;
+    flex-wrap: wrap;
+
+
+}
+
+
+
+.image-thumbs-b button {
+    border: none;
+    /* 枠線を消す */
+    outline: none;
+    /* クリックしたときに表示される枠線を消す */
+    background: transparent;
+    /* 背景の灰色を消す */
+
+}
+
+.image-thumbnail-b {
+    margin-left: 10px;
+}
+
+.image-thumbnail-b:nth-child(n + 3) {
+    margin-top: 10px;
+}
+
+.selected {
+    position: relative;
+
+}
+
+.selected::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #ffff99;
+    opacity: .7;
+}
+
+.content2-title {
+    float: right;
+    background: none;
+}
+
+.all-w,
+.crime-w,
+.earo-w,
+.endurans-w,
+.gravel-w {
+    width: 500px;
+    overflow: hidden;
+    background: none;
+}
+
 
 /*境目テンプレ*/
 .road-10deg-ba {
@@ -320,7 +482,7 @@ header nav ul li a:hover {
     border-color: transparent transparent transparent #ffff99;
 }
 
-/*content3*/
+/*content3----------------------------------------*/
 #material {
     background-color: #ffff99;
     padding-bottom: 19vw;
@@ -466,6 +628,10 @@ header nav ul li a:hover {
     flex-wrap: wrap;
 
 
+}
+
+.content5 img {
+    width: 300px;
 }
 
 #A,

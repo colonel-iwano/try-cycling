@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>TryCycling</title>
     <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/slider-pro-master/dist/js/jquery.sliderPro.js"></script>
 </head>
 
 <body>
@@ -44,28 +47,41 @@
                     <p class="title-p">自転車にはどのような種類があるのだろうか？</p>
                 </div>
                 <div class="content1-img">
-                    <img src="images/allroadbikes.png" alt="">
-                    <img src="images/mountainbikes.png" alt="">
-                    <img src="images/crossbikes.png" alt="">
+                    <div class="image-up">
+                        <img src="images/allroadbikes.png" alt="">
+
+                    </div>
+                    <div class="image-thumbs">
+                        <button id="all" class="secList">
+                            <div class="image-thumbnail selected"><img src="images/allroadbikes.png" alt=""></div>
+                        </button>
+                        <button id="mountain" class="secList">
+                            <div class="image-thumbnail"><img src="images/mountainbikes.png" alt=""></div>
+                        </button>
+                        <button id="cross" class="secList">
+                            <div class="image-thumbnail"><img src="images/crossbikes.png" alt=""></div>
+                        </button>
+                    </div>
+
                 </div>
                 <div class="content1-info">
-                    <div class="all-info">
+                    <div class="all section">
                         <h4>ロードバイク</h4>
                         <p class="road-p">舗装路を速く、長距離、長時間走ることに向いているスポーツ車。
                             <br>速く走るためにドロップハンドルと舗装タイヤを装備、車体は軽量で前傾姿勢をとりやすいような設計になっている。レースに参加する。ツーリングをするなどの楽しみ方がある。
                         </p>
                     </div>
-                    <div class="moutain-info">
+                    <div class="mountain section">
                         <h4>マウンテンバイク</h4>
                         <p class="moutain-p">
-                            未舗装路を走るためのスポーツ車。
+                            未舗装路を走るためのスポーツ車。<br>
                             悪路でも安定した走行をするために太いブロックタイヤとサスペンションを装備、頑丈な設計になっている。
                             スポーツ目的以外にも、乗り心地のよさから街乗りでも人気がある。
                         </p>
                     </div>
-                    <div class="cross-info">
+                    <div class="cross  section">
                         <h4>クロスバイク</h4>
-                        <p>幅広い用途に対応でき手軽に始められるスポーツ車。
+                        <p>幅広い用途に対応でき手軽に始められるスポーツ車。<br>
                             クッション性を意識したタイヤと適度に前傾姿勢をとれる設計で街中を快適に走りたい場合に便利。
                             通勤、通学。街乗り。軽めのエクササイズなどに主に使用される。
                         </p>
@@ -82,40 +98,53 @@
                     <p class="title-p">roadbikeにはどのような種類があるのだろうか？</p>
                 </div>
                 <div class="content2-img">
-                    <img src="images/allroadbikes(white).png" alt="">
-                    <img src="images/crimeroadbikes(white).png" alt="">
-                    <img src="images/earoroadbikes(white).png" alt="">
-                    <img src="images/enduranslroadbikes(white).png" alt="">
-                    <img src="images/gravelroadbikes(white).png" alt="">
+                    <div class="image-up-b"><img src="images/allroadbikes(white).png" alt=""></div>
+                    <div class="image-thumbs-b">
+                        <button id="all-w" class="secList-b">
+                            <div class="image-thumbnail-b selected"><img src="images/allroadbikes(white).png" alt=""></div>
+                        </button>
+                        <button id="crime-w" class="secList-b">
+                            <div class="image-thumbnail-b "><img src="images/crimeroadbikes(white).png" alt=""></div>
+                        </button>
+                        <button id="earo-w" class="secList-b">
+                            <div class="image-thumbnail-b "><img src="images/earoroadbikes(white).png" alt=""></div>
+                        </button>
+                        <button id="endurans-w" class="secList-b">
+                            <div class="image-thumbnail-b "><img src="images/enduranslroadbikes(white).png" alt=""></div>
+                        </button>
+                        <button id="gravel-w" class="secList-b">
+                            <div class="image-thumbnail-b "><img src="images/gravelroadbikes(white).png" alt=""></div>
+                        </button>
+                    </div>
                 </div>
                 <div class="content2-info">
-                    <div class="all-p">
+                    <div class="all-w section-b">
                         <h4>オールラウンド</h4>
-                        <p>オールマイティーな性能をもったロードバイク。
+                        <p>オールマイティーな性能をもったロードバイク。<br>
                             平地も走れ、山も登ることができる。
                             尖った性能はないがすべてをそつなくこなすことができる万能型。</p>
                     </div>
-                    <div class="crime-p">
+                    <div class="crime-w section-b">
                         <h4>ヒルクライム</h4>
-                        <p>軽さを重視したロードバイク。
+                        <p>軽さを重視したロードバイク。<br>
                             軽いため山を速く登ることができる。
                             しかしその軽さゆえに大きなパワーは出しづらく平地を速く走るのは苦手。</p>
                     </div>
-                    <div class="earo-p">
+                    <div class="earo-w section-b">
                         <h4>エアロ</h4>
-                        <p>空力性能を重視したロードバイク。
+                        <p>空力性能を重視したロードバイク。<br>
                             空気抵抗が少なくなるように設計されているため、平地をより速く走ることができる。
                             重量が重くなってしまうため山を登るのは苦手だが、山下りや平地では真価を発揮する。</p>
                     </div>
-                    <div class="endurans-p">
+                    <div class="endurans-w section-b">
                         <h4>エンデュランス</h4>
-                        <p>長距離を快適に走ることを重視したロードバイク。
+                        <p>長距離を快適に走ることを重視したロードバイク。<br>
                             前傾姿勢が浅くなるように、路面からの振動を軽減するように設計されているため体への負担を軽減することができる。
                             スピードを出すことは苦手だが、ロングライドに向いている。</p>
                     </div>
-                    <div class="gravel-p">
+                    <div class="gravel-w section-b">
                         <h4>グラベル</h4>
-                        <p>未舗装路も走れるロードバイク。
+                        <p>未舗装路も走れるロードバイク。<br>
                             太いタイヤを装着することができるので未舗装路での走行が可能。
                             マウンテンバイクとロードバイクの中間のような使い方ができる。</p>
                     </div>
@@ -257,6 +286,67 @@
 
     <footer>&copy;kento iwano</footer>
 
+
+    <script>
+        $(function() {
+            $('.image-thumbnail').on('click', function() {
+                if ($(this).hasClass("selected")) {
+                    return;
+                }
+                var selectedImgSrc = $(this).children('img').attr('src');
+                $('.selected').removeClass('selected');
+                $(this).addClass('selected');
+                $('.image-up').children('img').attr('src', selectedImgSrc);
+            });
+        })
+
+    </script>
+    <script>
+        $(function() {
+            $('.section').hide();
+
+            $('.secList').on('click', function() {
+                // クリックした要素の ID と違うクラス名のセクションを非表示
+                $('.section').not($('.' + $(this).attr('id'))).hide();
+                // クリックした要素の ID と同じクラスのセクションを表示
+                $('.' + $(this).attr('id')).show();
+
+                // toggle にすると、同じボタンを 2 回押すと非表示になる
+                // $('.'+$(this).attr('id')).toggle();
+            });
+        });
+
+    </script>
+    <script>
+        $(function() {
+            $('.image-thumbnail-b').on('click', function() {
+                if ($(this).hasClass("selected")) {
+                    return;
+                }
+                var selectedImgSrc = $(this).children('img').attr('src');
+                $('.selected').removeClass('selected');
+                $(this).addClass('selected');
+                $('.image-up-b').children('img').attr('src', selectedImgSrc);
+            });
+        })
+
+    </script>
+    <script>
+        $(function() {
+            $('.section-b').hide();
+
+            $('.secList-b').on('click', function() {
+                // クリックした要素の ID と違うクラス名のセクションを非表示
+                $('.section-b').not($('.' + $(this).attr('id'))).hide();
+                // クリックした要素の ID と同じクラスのセクションを表示
+                $('.' + $(this).attr('id')).show();
+
+                // toggle にすると、同じボタンを 2 回押すと非表示になる
+                // $('.'+$(this).attr('id')).toggle();
+            });
+        });
+
+    </script>
 </body>
 
 </html>

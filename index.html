@@ -9,6 +9,13 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="images/fav.png">
+    <script>
+        $(function() {
+            var style = '<link rel="stylesheet" href="css/animation.css">';
+            $('head link:last').after(style);
+        });
+
+    </script>
 
 </head>
 
@@ -345,89 +352,91 @@
 
 
 
+    </div>
+    <footer>&copy;kento iwano</footer>
 
-        <footer>&copy;kento iwano</footer>
 
 
-        <script>
-            $(function() {
-                $('.image-thumbnail').on('click', function() {
-                    if ($(this).hasClass("selected")) {
-                        return;
-                    }
-                    var selectedImgSrc = $(this).children('img').attr('src');
-                    $('.selected').removeClass('selected');
-                    $(this).addClass('selected');
-                    $('.image-up').children('img').attr('src', selectedImgSrc);
-                });
-            })
-
-        </script>
-        <script>
-            $(function() {
-                $('.section').hide();
-
-                $('.secList').on('click', function() {
-                    // クリックした要素の ID と違うクラス名のセクションを非表示
-                    $('.section').not($('.' + $(this).attr('id'))).hide();
-                    // クリックした要素の ID と同じクラスのセクションを表示
-                    $('.' + $(this).attr('id')).show();
-
-                    // toggle にすると、同じボタンを 2 回押すと非表示になる
-                    // $('.'+$(this).attr('id')).toggle();
-                });
+    <script>
+        $(function() {
+            $('.image-thumbnail').on('click', function() {
+                if ($(this).hasClass("selected")) {
+                    return;
+                }
+                var selectedImgSrc = $(this).children('img').attr('src');
+                $('.selected').removeClass('selected');
+                $(this).addClass('selected');
+                $('.image-up').children('img').attr('src', selectedImgSrc);
             });
+        })
 
-        </script>
-        <script>
-            $(function() {
-                $('.image-thumbnail-b').on('click', function() {
-                    if ($(this).hasClass("selected")) {
-                        return;
-                    }
-                    var selectedImgSrc = $(this).children('img').attr('src');
-                    $('.selected').removeClass('selected');
-                    $(this).addClass('selected');
-                    $('.image-up-b').children('img').attr('src', selectedImgSrc);
-                });
-            })
+    </script>
+    <script>
+        $(function() {
+            $('.section').hide();
 
-        </script>
-        <script>
-            $(function() {
-                $('.section-b').hide();
+            $('.secList').on('click', function() {
+                // クリックした要素の ID と違うクラス名のセクションを非表示
+                $('.section').not($('.' + $(this).attr('id'))).hide();
+                // クリックした要素の ID と同じクラスのセクションを表示
+                $('.' + $(this).attr('id')).show();
 
-                $('.secList-b').on('click', function() {
-                    // クリックした要素の ID と違うクラス名のセクションを非表示
-                    $('.section-b').not($('.' + $(this).attr('id'))).hide();
-                    // クリックした要素の ID と同じクラスのセクションを表示
-                    $('.' + $(this).attr('id')).show();
-
-                    // toggle にすると、同じボタンを 2 回押すと非表示になる
-                    // $('.'+$(this).attr('id')).toggle();
-                });
+                // toggle にすると、同じボタンを 2 回押すと非表示になる
+                // $('.'+$(this).attr('id')).toggle();
             });
+        });
 
-        </script>
-        <script>
-            // $(function() {
-            //   $(window).on('scroll', function() {
-            //   let triggerClass = $('.run-section1'); //トリガーとなるクラス
-            //   animateClass = ('run-bike-b');
+    </script>
+    <script>
+        $(function() {
+            $('.image-thumbnail-b').on('click', function() {
+                if ($(this).hasClass("selected")) {
+                    return;
+                }
+                var selectedImgSrc = $(this).children('img').attr('src');
+                $('.selected').removeClass('selected');
+                $(this).addClass('selected');
+                $('.image-up-b').children('img').attr('src', selectedImgSrc);
+            });
+        })
 
-            //   $(triggerClass).each(function() {
-            //      let scroll = $(window).scrollTop(), //スクロール位置を取得
-            //          triggerTop = $(this).offset().top, //指定要素のY座標
-            //         windowHeight = $(window).height(); //ウィンドウの高さ
-            // 要素が画面中央に来た時に発火
-            //      if (scroll > triggerTop - windowHeight / 3) {
-            //           $(this).addClass(animateClass);
-            //     }
-            //        });
-            //  });
-            //     });
+    </script>
+    <script>
+        $(function() {
+            $('.section-b').hide();
 
-        </script>
+            $('.secList-b').on('click', function() {
+                // クリックした要素の ID と違うクラス名のセクションを非表示
+                $('.section-b').not($('.' + $(this).attr('id'))).hide();
+                // クリックした要素の ID と同じクラスのセクションを表示
+                $('.' + $(this).attr('id')).show();
+
+                // toggle にすると、同じボタンを 2 回押すと非表示になる
+                // $('.'+$(this).attr('id')).toggle();
+            });
+        });
+
+    </script>
+    <script>
+        // $(function() {
+        //   $(window).on('scroll', function() {
+        //   let triggerClass = $('.run-section1'); //トリガーとなるクラス
+        //   animateClass = ('run-bike-b');
+
+        //   $(triggerClass).each(function() {
+        //      let scroll = $(window).scrollTop(), //スクロール位置を取得
+        //          triggerTop = $(this).offset().top, //指定要素のY座標
+        //         windowHeight = $(window).height(); //ウィンドウの高さ
+        // 要素が画面中央に来た時に発火
+        //      if (scroll > triggerTop - windowHeight / 3) {
+        //           $(this).addClass(animateClass);
+        //     }
+        //        });
+        //  });
+        //     });
+
+    </script>
+
 
 
 

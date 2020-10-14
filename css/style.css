@@ -3,6 +3,7 @@
     padding: 0;
     max-width: 1500px;
 
+
 }
 
 @font-face {
@@ -36,23 +37,24 @@ h1 {
 h4 {
     display: inline-block;
     background: linear-gradient(transparent 50%, #ffff66 50%);
+    font-size: 1.5vw;
 }
 
 h2 {
-    border-left: solid 10px #ffff66;
+    border-left: solid 1vw #ffff66;
     font-size: 4vw;
 }
 
 .title-p {
-    border-left: solid 10px #ffff66;
+    border-left: solid 1vw #ffff66;
 }
 
 #material h2 {
-    border-left: solid 10px #fff;
+    border-left: solid 1vw #fff;
 }
 
 #material .title-p {
-    border-left: solid 10px #fff;
+    border-left: solid 1vw #fff;
 }
 
 /*main-visual-------------------------------------------------*/
@@ -195,8 +197,9 @@ header nav ul li a:hover {
 
 .road-10deg-b img {
     position: absolute;
-    top: -6.5vw;
-    left: 100px;
+    top: -5.9vw;
+    left: 10vw;
+
     width: 11vw;
 
 }
@@ -225,7 +228,7 @@ header nav ul li a:hover {
     }
 
     to {
-        transform: translate(75vw, 13.3vw);
+        transform: translate(70vw, 12.3vw);
     }
 }
 
@@ -384,7 +387,7 @@ p {
 .run-bike-b {
     position: absolute;
     top: 6vw;
-    right: 100px;
+    right: 10vw;
     width: 11vw;
 
 }
@@ -405,7 +408,7 @@ p {
     }
 
     to {
-        transform: translate(-75vw, 13.3vw);
+        transform: translate(-70vw, 12.5vw);
     }
 }
 
@@ -576,8 +579,8 @@ p {
 
 .road-10deg-ba img {
     position: absolute;
-    top: 5.7vw;
-    left: 100px;
+    top: 5.8vw;
+    left: 10vw;
     width: 11vw;
 
 }
@@ -606,7 +609,7 @@ p {
     }
 
     to {
-        transform: translate(75vw, 13.3vw);
+        transform: translate(70vw, 12.5vw);
     }
 }
 
@@ -720,7 +723,7 @@ p {
 .run-bike-d {
     position: absolute;
     top: 6vw;
-    right: 100px;
+    right: 10vw;
     width: 11vw;
 
 }
@@ -741,7 +744,7 @@ p {
     }
 
     to {
-        transform: translate(-75vw, 13.3vw);
+        transform: translate(-70vw, 13.3vw);
     }
 }
 
@@ -1347,19 +1350,24 @@ p {
 
 .hatena {
     font-size: 95px;
+    margin-bottom: -10px;
 }
 
 #result p {
     margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 #result h4 {
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 #result img {
     width: 200px;
     margin-top: 30px;
+    margin: 0 auto;
 }
 
 .content5 img {
@@ -1380,6 +1388,8 @@ p {
     height: 300px;
     margin: 10px;
     text-align: center;
+
+}
 
 }
 

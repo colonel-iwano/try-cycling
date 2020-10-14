@@ -1,11 +1,11 @@
 @keyframes animation04 {
-    from {
+    0% {
         transform: translate(0, 0);
         -webkit-transition: translate(0, 0);
         -o-transition: translate(0, 0);
     }
 
-    to {
+    99.9% {
         transform: translate(70vw, 12.3vw);
         -webkit-transition: translate(70vw, 12.3vw));
         -o-transition: translate(70vw, 12.3vw);

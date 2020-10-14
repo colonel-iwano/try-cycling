@@ -20,14 +20,10 @@
 
 
 .run-bike-a {
-    animation: animation04 2s infinite ease 1s both;
+    animation: animation04 3s infinite ease 3s both;
     -webkit-animation: animation04 3s infinite ease 3s both;
     -o-animation: animation04 3s infinite ease 3s both;
-
-
-    -ms-transform: animation04 3s infinite ease 3s both;
-
-    -o-transform: animation04 3s infinite ease 3s both;
+    -ms-animation: animation04 3s infinite ease 3s both;
 
 
 
@@ -46,10 +42,16 @@
 @-webkit-keyframes animation04 {
     from {
         -webkit-transform: translate(0, 0);
+        -webkit-transition: translate(0, 0);
+        -o-transition: translate(0, 0);
+        transition: translate(0, 0);
     }
 
     to {
         -webkit-transform: translate(50px, 50px);
+        -webkit-transition: translate(50px, 50px);
+        -o-transition: translate(50px, 50px);
+        transition: translate(50px, 50px);
     }
 }
 

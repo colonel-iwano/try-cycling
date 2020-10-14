@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    max-width: 1500px;
+
 
 
 }
@@ -20,7 +20,7 @@
 }
 
 .main {
-    width: 80vw;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -529,7 +529,7 @@ p {
     background-color: #111;
     width: 30vw;
     float: left;
-    padding: 20px;
+    padding: 2vw;
 
 }
 
@@ -545,7 +545,7 @@ p {
 
 .info-r p {
     width: 30vw;
-    margin-top: 30px;
+    margin-top: 3.2vw;
 
 }
 
@@ -657,7 +657,7 @@ p {
 .tool-branch {
     text-align: center;
     width: 20vw;
-    margin-top: 50px;
+    margin-top: 5vw;
 
     width: 80vw;
 
@@ -715,13 +715,17 @@ p {
 }
 
 .tool-all {
-    margin-top: 50px;
+
     margin: 0 auto;
 }
 
 .tool-title {
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10vw;
+}
+
+.tool-title h3 {
+    font-size: 2.5vw;
 }
 
 .yes {}
@@ -1197,6 +1201,7 @@ p {
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
+    font-size: 1.2vw
 }
 
 #result img {
@@ -1317,5 +1322,154 @@ footer {
 .run-bike-d {
     animation: animation07 2s infinite ease 1s both;
     -webkit-animation: animation05 3s infinite ease 3s both;
+
+}
+
+@media screen and (max-width:479px) {
+    .mv-triangle {
+        position: relative;
+        padding-top: 25vh;
+        width: 100%;
+
+        /*レイアウト用のCSS*/
+        background-color: #111;
+        z-index: -1;
+    }
+
+    .mv-triangle::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-style: solid;
+
+        /*ここで三角形のサイズを決める。
+  必ず幅100vwにして、ブラウザサイズいっぱいにしてください。*/
+        border-width: 0 0 100px 100vw;
+
+        border-color: transparent transparent #fff transparent;
+    }
+
+
+    .main-visual h1 {
+        transform: rotate(0deg);
+        font-size: 10vw;
+        position: absolute;
+        font-weight: 100;
+        margin-top: -45vw;
+        margin-left: 5vw;
+        color: #fff;
+        z-index: 1;
+    }
+
+    .main-visual .mv-h3 {
+        transform: rotate(0deg);
+        position: absolute;
+        margin-top: -30vw;
+        margin-left: 5vw;
+        color: #fff;
+    }
+
+    .main-visual h3 {
+        font-size: 5vw;
+        margin-top: 3px;
+    }
+
+    .mv-img {}
+
+    .mv-img img {
+        position: absolute;
+        transform: rotate(90deg);
+        padding-left: 20vh;
+        width: 55vh;
+        top: 22vh;
+        left: 10vw;
+
+
+
+    }
+
+    header {
+
+        position: relative;
+        padding: 20px 0px;
+        z-index: 1;
+
+
+    }
+
+    header::before {
+        display: none;
+
+
+    }
+
+    header nav {}
+
+    header nav ul {
+
+        transform: rotate(0deg);
+        position: absolute;
+        padding-top: 1vw;
+        top: 8vh;
+        left: 5vw;
+
+
+    }
+
+    header nav ul li {
+        list-style: none;
+        margin-right: 5vw;
+        padding-left: 1vw;
+        font-weight: 300;
+        font-size: 3vw;
+        border-left: solid 1vw #ffff66;
+        display: list-item;
+        text-transform: uppercase;
+        margin-top: 2vh;
+    }
+
+    header nav ul li a {
+
+        color: #111;
+        text-decoration: none;
+        transition: 1s;
+        text-align: left;
+    }
+
+    header nav ul li a:hover {
+        color: #ffff66;
+    }
+
+    .road-10deg-b {
+        position: relative;
+        height: 5vw;
+        z-index: 1;
+        height: ;
+    }
+
+    .road-10deg-b::before {
+        content: "";
+        position: absolute;
+        top: 45vh;
+        bottom: ;
+        left: 0;
+        right: 0;
+        z-index: -1;
+        background-color: #111;
+        height: 15vw;
+
+    }
+
+    .road-10deg-b img {
+        position: absolute;
+        top: 45vh;
+        left: 10vw;
+
+        width: 14vw;
+
+    }
 
 }

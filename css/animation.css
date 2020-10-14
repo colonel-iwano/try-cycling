@@ -22,6 +22,14 @@
 .run-bike-a {
     animation: animation04 2s infinite ease 1s both;
     -webkit-animation: animation04 3s infinite ease 3s both;
+    -o-animation: animation04 3s infinite ease 3s both;
+
+
+    -ms-transform: animation04 3s infinite ease 3s both;
+
+    -o-transform: animation04 3s infinite ease 3s both;
+
+
 
 }
 
@@ -120,6 +128,90 @@
 }
 
 @-webkit-keyframes animation06 {
+    from {
+        -webkit-transform: translate(0, 0);
+    }
+
+    to {
+        -webkit-transform: translate(50px, 50px);
+    }
+}
+
+.road-10deg-ba img {
+    position: absolute;
+    top: 5.8vw;
+    left: 10vw;
+    width: 11vw;
+
+}
+
+@keyframes animation06 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(50px, 50px);
+    }
+}
+
+
+
+.run-bike-c {
+    animation: animation06 2s infinite ease 1s both;
+    -webkit-animation: animation06 3s infinite ease 3s both;
+
+}
+
+@keyframes animation06 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(70vw, 12.5vw);
+    }
+}
+
+@-webkit-keyframes animation06 {
+    from {
+        -webkit-transform: translate(0, 0);
+    }
+
+    to {
+        -webkit-transform: translate(50px, 50px);
+    }
+}
+
+.run-bike-d {
+    position: absolute;
+    top: 6vw;
+    right: 10vw;
+    width: 11vw;
+
+}
+
+
+
+
+
+.run-bike-d {
+    animation: animation07 2s infinite ease 1s both;
+    -webkit-animation: animation05 3s infinite ease 3s both;
+
+}
+
+@keyframes animation07 {
+    from {
+        transform: translate(0, 0);
+    }
+
+    to {
+        transform: translate(-70vw, 13.3vw);
+    }
+}
+
+@-webkit-keyframes animation07 {
     from {
         -webkit-transform: translate(0, 0);
     }

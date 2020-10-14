@@ -195,52 +195,6 @@ header nav ul li a:hover {
 
 }
 
-.road-10deg-b img {
-    position: absolute;
-    top: -5.9vw;
-    left: 10vw;
-
-    width: 11vw;
-
-}
-
-@keyframes animation04 {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(50px, 50px);
-    }
-}
-
-
-
-.run-bike-a {
-    animation: animation04 2s infinite ease 1s both;
-    -webkit-animation: animation04 3s infinite ease 3s both;
-
-}
-
-@keyframes animation04 {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(70vw, 12.3vw);
-    }
-}
-
-@-webkit-keyframes animation04 {
-    from {
-        -webkit-transform: translate(0, 0);
-    }
-
-    to {
-        -webkit-transform: translate(50px, 50px);
-    }
-}
 
 /*content1-----------------------------------------*/
 #typeofbike {
@@ -384,43 +338,6 @@ p {
     margin-bottom: 10px;
 }
 
-.run-bike-b {
-    position: absolute;
-    top: 6vw;
-    right: 10vw;
-    width: 11vw;
-
-}
-
-
-
-
-
-.run-bike-b {
-    animation: animation05 2s infinite ease 1s both;
-    -webkit-animation: animation05 3s infinite ease 3s both;
-
-}
-
-@keyframes animation05 {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(-70vw, 12.5vw);
-    }
-}
-
-@-webkit-keyframes animation05 {
-    from {
-        -webkit-transform: translate(0, 0);
-    }
-
-    to {
-        -webkit-transform: translate(50px, 50px);
-    }
-}
 
 /*content2---------------------------------------------------------*/
 #typeofroadbike {
@@ -577,51 +494,6 @@ p {
     border-color: transparent transparent transparent #ffff99;
 }
 
-.road-10deg-ba img {
-    position: absolute;
-    top: 5.8vw;
-    left: 10vw;
-    width: 11vw;
-
-}
-
-@keyframes animation06 {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(50px, 50px);
-    }
-}
-
-
-
-.run-bike-c {
-    animation: animation06 2s infinite ease 1s both;
-    -webkit-animation: animation06 3s infinite ease 3s both;
-
-}
-
-@keyframes animation06 {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(70vw, 12.5vw);
-    }
-}
-
-@-webkit-keyframes animation06 {
-    from {
-        -webkit-transform: translate(0, 0);
-    }
-
-    to {
-        -webkit-transform: translate(50px, 50px);
-    }
-}
 
 /*content3----------------------------------------*/
 #material {
@@ -720,43 +592,6 @@ p {
     border-color: transparent transparent #fff transparent;
 }
 
-.run-bike-d {
-    position: absolute;
-    top: 6vw;
-    right: 10vw;
-    width: 11vw;
-
-}
-
-
-
-
-
-.run-bike-d {
-    animation: animation07 2s infinite ease 1s both;
-    -webkit-animation: animation05 3s infinite ease 3s both;
-
-}
-
-@keyframes animation07 {
-    from {
-        transform: translate(0, 0);
-    }
-
-    to {
-        transform: translate(-70vw, 13.3vw);
-    }
-}
-
-@-webkit-keyframes animation07 {
-    from {
-        -webkit-transform: translate(0, 0);
-    }
-
-    to {
-        -webkit-transform: translate(50px, 50px);
-    }
-}
 
 
 /*content4*/
@@ -1397,4 +1232,90 @@ footer {
     background: #ffff99;
     color: #111;
     text-align: center;
+}
+
+.road-10deg-b img {
+    position: absolute;
+    top: -5.9vw;
+    left: 10vw;
+
+    width: 11vw;
+
+}
+
+
+
+
+.run-bike-a {
+    animation: animation04 3s infinite ease 3s both;
+    -webkit-animation: animation04 3s infinite ease 3s both;
+    -o-animation: animation04 3s infinite ease 3s both;
+    -ms-animation: animation04 3s infinite ease 3s both;
+
+
+
+}
+
+.run-bike-b {
+    position: absolute;
+    top: 6vw;
+    right: 10vw;
+    width: 11vw;
+
+}
+
+
+
+
+
+.run-bike-b {
+    animation: animation05 2s infinite ease 1s both;
+    -webkit-animation: animation05 3s infinite ease 3s both;
+
+}
+
+.road-10deg-ba img {
+    position: absolute;
+    top: 5.8vw;
+    left: 10vw;
+    width: 11vw;
+
+}
+
+.run-bike-c {
+    animation: animation06 2s infinite ease 1s both;
+    -webkit-animation: animation06 3s infinite ease 3s both;
+
+}
+
+.road-10deg-ba img {
+    position: absolute;
+    top: 5.8vw;
+    left: 10vw;
+    width: 11vw;
+
+}
+
+.run-bike-c {
+    animation: animation06 2s infinite ease 1s both;
+    -webkit-animation: animation06 3s infinite ease 3s both;
+
+}
+
+.run-bike-d {
+    position: absolute;
+    top: 6vw;
+    right: 10vw;
+    width: 11vw;
+
+}
+
+
+
+
+
+.run-bike-d {
+    animation: animation07 2s infinite ease 1s both;
+    -webkit-animation: animation05 3s infinite ease 3s both;
+
 }

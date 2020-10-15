@@ -11,7 +11,9 @@
     src: url(../font/bifur.ttf) format("truetype")
 }
 
-
+body {
+    font-family: 'メイリオ', 'Meiryo', sans-serif;
+}
 
 
 
@@ -596,6 +598,14 @@ p {
 #yes-no {
     background-color: #fff;
     margin-bottom: 19vw;
+}
+
+.ao {
+    color: #005ebb
+}
+
+.aka {
+    color: #d01137
 }
 
 .content4 {
@@ -1524,6 +1534,10 @@ p {
     }
 
     h4 {
+        font-size: 4vw;
+    }
+
+    #result h4 {
         font-size: 4vw;
     }
 }

@@ -47,7 +47,9 @@ h2 {
     font-size: 4vw;
 }
 
-.title-p {}
+.title-p {
+    padding-left: 1vw;
+}
 
 #material h2 {
     border-left: solid 1vw #fff;
@@ -157,7 +159,7 @@ header nav ul li {
     font-weight: 300;
     font-size: 2vw;
     display: inline-block;
-    border-left: solid 0.5vw #ffff66
+    border-left: solid 0.5vw #ffee00;
 }
 
 header nav ul li a {
@@ -1509,6 +1511,7 @@ p {
 
     .title-p {
         font-size: 3vw;
+
     }
 
     p {

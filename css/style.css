@@ -31,17 +31,17 @@ h1 {
 /*黄色or白のアンダーライン---------------------------------------------*/
 .main-visual h3 {
     display: inline-block;
-    background: linear-gradient(transparent 50%, #ffff66 50%);
+    background: linear-gradient(transparent 50%, #ffee00 50%);
 }
 
 h4 {
     display: inline-block;
-    background: linear-gradient(transparent 50%, #ffff66 50%);
+    background: linear-gradient(transparent 50%, #ffee00 50%);
     font-size: 1.5vw;
 }
 
 h2 {
-    border-left: solid 1vw #ffff66;
+    border-left: solid 1vw #ffee00;
     font-size: 4vw;
 }
 
@@ -488,13 +488,13 @@ p {
     height: 0;
     border-style: solid;
     border-width: 18vw 0 0 100vw;
-    border-color: transparent transparent transparent #ffff99;
+    border-color: transparent transparent transparent #ffee00;
 }
 
 
 /*content3----------------------------------------*/
 #material {
-    background-color: #ffff99;
+    background-color: #ffee00;
     padding-bottom: 19vw;
     overflow: hidden;
 }
@@ -570,12 +570,12 @@ p {
     z-index: -1;
     width: 100%;
     height: 100%;
-    background: #ffff99;
+    background: #ffee00;
 }
 
 #material {
     position: relative;
-    background-color: #ffff99;
+    background-color: #ffee00;
 }
 
 #material::before {
@@ -1235,8 +1235,8 @@ p {
 
 }
 
-footer {
-    background: #ffff99;
+.footer {
+    background: #ffee00;
     color: #111;
     text-align: center;
 }

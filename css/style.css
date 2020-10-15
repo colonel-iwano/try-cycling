@@ -45,17 +45,13 @@ h2 {
     font-size: 4vw;
 }
 
-.title-p {
-    border-left: solid 1vw #ffff66;
-}
+.title-p {}
 
 #material h2 {
     border-left: solid 1vw #fff;
 }
 
-#material .title-p {
-    border-left: solid 1vw #fff;
-}
+#material .title-p {}
 
 /*main-visual-------------------------------------------------*/
 .main-visual {
@@ -332,6 +328,7 @@ p {
 .cross {
     width: 60vw;
     overflow: hidden;
+    height: 20vw;
 }
 
 .content1 h4 {
@@ -448,6 +445,7 @@ p {
     width: 60vw;
     overflow: hidden;
     background: none;
+    height: 40vw;
 }
 
 
@@ -518,6 +516,7 @@ p {
 
 .info-box h4 {
     color: #fff;
+    border: none;
 }
 
 .info-l p {
@@ -688,6 +687,10 @@ p {
 
     padding: 1vw 3vw;
     font-size: 1.5vw;
+}
+
+.info-box h4 {
+    background: none
 }
 
 .tool-branch a {
@@ -1325,6 +1328,10 @@ footer {
 
 }
 
+.resnav {
+    display: none;
+}
+
 @media screen and (max-width:479px) {
     .mv-triangle {
         position: relative;
@@ -1358,7 +1365,7 @@ footer {
         font-size: 10vw;
         position: absolute;
         font-weight: 100;
-        margin-top: -45vw;
+        margin-top: -30vh;
         margin-left: 5vw;
         color: #fff;
         z-index: 1;
@@ -1367,7 +1374,7 @@ footer {
     .main-visual .mv-h3 {
         transform: rotate(0deg);
         position: absolute;
-        margin-top: -30vw;
+        margin-top: -22vh;
         margin-left: 5vw;
         color: #fff;
     }
@@ -1377,21 +1384,27 @@ footer {
         margin-top: 3px;
     }
 
-    .mv-img {}
+    .mv-img {
+        width: 100vw;
+        padding-top: 10vw;
+    }
 
     .mv-img img {
-        position: absolute;
+        float: left;
         transform: rotate(90deg);
-        padding-left: 20vh;
-        width: 80vw;
-        top: 22vh;
-        left: 10vw;
+
+
+
+        width: 50vh;
+
+
 
 
 
     }
 
     header {
+        display: none;
 
         position: relative;
         padding: 20px 0px;
@@ -1413,7 +1426,7 @@ footer {
         transform: rotate(0deg);
         position: absolute;
         padding-top: 1vw;
-        top: 8vh;
+        top: 18vh;
         left: 5vw;
 
 
@@ -1424,10 +1437,10 @@ footer {
         margin-right: 5vw;
         padding-left: 1vw;
         font-weight: 300;
-        font-size: 3vw;
+        font-size: 4vw;
         border-left: solid 1vw #ffff66;
         display: list-item;
-        text-transform: uppercase;
+
         margin-top: 2vh;
     }
 
@@ -1453,7 +1466,7 @@ footer {
     .road-10deg-b::before {
         content: "";
         position: absolute;
-        top: 45vh;
+        top: 55vh;
         bottom: ;
         left: 0;
         right: 0;
@@ -1465,11 +1478,49 @@ footer {
 
     .road-10deg-b img {
         position: absolute;
-        top: 45vh;
+        top: 55vh;
         left: 10vw;
 
         width: 14vw;
 
+    }
+
+
+
+    .all,
+    .mountain,
+    .cross {
+        width: 100%;
+        height: 50vw;
+    }
+
+    h2 {
+        font-size: 8vw;
+    }
+
+    .title-p {
+        font-size: 3vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+    .all-w,
+    .crime-w,
+    .earo-w,
+    .endurans-w,
+    .gravel-w {
+        width: 100%;
+    }
+
+    .info-box h4 {
+        font-size: 3vw;
+        margin-bottom: 2vw;
+    }
+
+    .info-l {
+        height: 25vw;
     }
 
 }

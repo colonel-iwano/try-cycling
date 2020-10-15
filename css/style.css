@@ -230,7 +230,7 @@ header nav ul li a:hover {
 
 .image-up {
     flex: 0 0 60vw;
-    height: 400;
+
 
 }
 
@@ -1540,8 +1540,16 @@ p {
         font-size: 4vw;
     }
 
+    .content1-title p {
+        font-size: 3vw;
+    }
+
     #result h4 {
         font-size: 4vw;
+    }
+
+    .tool-branch p {
+        font-size: vw;
     }
 }
 

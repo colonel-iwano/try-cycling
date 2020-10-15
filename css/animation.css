@@ -6,7 +6,7 @@
     }
 
     99.9% {
-        transform: translate(70vw, 12.3vw);
+        transform: translate(110vw, 19.3vw);
         -webkit-transition: translate(70vw, 12.3vw));
         -o-transition: translate(70vw, 12.3vw);
     }
@@ -35,7 +35,7 @@
     }
 
     to {
-        transform: translate(-70vw, 12.5vw);
+        transform: translate(-110vw, 19.5vw);
     }
 }
 
@@ -71,7 +71,7 @@
     }
 
     to {
-        transform: translate(70vw, 12.5vw);
+        transform: translate(110vw, 12.5vw);
     }
 }
 
@@ -106,7 +106,7 @@
     }
 
     to {
-        transform: translate(70vw, 12.5vw);
+        transform: translate(110vw, 19.5vw);
     }
 }
 

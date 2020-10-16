@@ -677,7 +677,7 @@ p {
 
 .tool-branch {
     text-align: center;
-    width: 20vw;
+
     margin-top: 5vw;
 
     width: 80vw;
@@ -1256,7 +1256,7 @@ p {
 
 }
 
-}
+
 
 .footer {
     background: #ffee00;
@@ -1356,6 +1356,7 @@ p {
 .mv-img1 {
     display: none
 }
+
 
 @media screen and (max-width:479px) {
     .mv-triangle {
@@ -1540,11 +1541,11 @@ p {
     }
 
     h2 {
-        font-size: 10vw;
+        font-size: 8vw;
     }
 
     .title-p {
-        font-size: 5vw;
+        font-size: 3vw;
 
     }
 
@@ -1580,7 +1581,7 @@ p {
     }
 
     .content1-title p {
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     #result h4 {
@@ -1588,8 +1589,496 @@ p {
     }
 
     .tool-branch p {
-        font-size: vw;
+        font-size: 3.5vw;
     }
+
+    .content2-title {
+        margin-top: 5vw;
+    }
+
+    .content2-title h2 {
+        font-size: 8vw;
+    }
+
+    .content4-title {
+        margin-top: 5vw;
+    }
+
+    .tool-all {}
+
+
+
+
+    .tool-branch a {
+
+        color: #111;
+        font-size: 4vw;
+        display: inline-block;
+        text-decoration: none;
+        width: 5vw;
+        height: 5vw;
+        line-height: 5.5vw;
+        border-radius: 50%;
+        border: solid 0.5vw #111;
+        text-align: center;
+        overflow: hidden;
+        font-weight: bold;
+        transition: .4s;
+
+
+    }
+
+    .tool-branch a:hover {
+        background-color: #111;
+        color: #fff;
+    }
+
+    .tool-title {
+        text-align: center;
+    }
+
+    .section-p1 {
+        margin-left: 0vw;
+    }
+
+
+    .p2 {
+        margin-left: 7vw;
+        margin-top: 4vw;
+    }
+
+    .section-p2 a {}
+
+    .section-p3 .p3 {
+        margin-left: 1vw;
+        margin-top: 4vw;
+    }
+
+    .p4 {
+        margin-left: 5vw;
+        margin-top: 4vw;
+    }
+
+    .section-p5 {
+        margin-left: vw;
+        align-items: flex-end;
+        margin-top: vw;
+
+
+    }
+
+    .p5 {
+        margin-left: 12vw;
+        margin-right: vw;
+        margin-top: 4vw;
+    }
+
+    .pa {
+        margin-top: 4vw;
+        margin-left: 2vw;
+    }
+
+    .pb {
+        margin-top: 4vw;
+        margin-left: -8vw;
+        margin-right: 20vw;
+
+    }
+
+    .pc {
+        margin-top: 4vw;
+        margin-left: -5vw;
+    }
+
+    .pd {
+        margin-top: 4vw;
+        margin-right: -10vw;
+        margin-left: 9vw;
+    }
+
+    .pe {
+        margin-top: 3vw;
+        margin-left: 47vw;
+    }
+
+    .section-pe {}
+
+    .section-p6 {
+        justify-content: center;
+        margin-top: 6vw;
+    }
+
+    .section-p7 .p7 {
+        margin-left: 13vw;
+        margin-top: 3vw;
+    }
+
+    .section-p7 .p8 {
+        margin-left: 7vw;
+        margin-top: 3vw;
+    }
+
+
+
+    .section-pf {}
+
+    .pf {
+        margin-top: 3vw;
+        margin-left: 14.5vw;
+    }
+
+    .pg {
+        margin-top: 3vw;
+        margin-left: 8vw;
+    }
+
+    .ph {
+        margin-top: 3vw;
+        margin-left: 10vw;
+    }
+
+    .pi {
+        margin-top: 3vw;
+        margin-left: 12vw;
+    }
+
+    .arrow {
+        margin-top: 2vw;
+        margin-left: 3.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+    }
+
+    .arrow::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow1 {
+        margin-top: -2vw;
+        margin-left: 24.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow1::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow3 {
+        margin-top: 2vw;
+        margin-left: 24.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+
+    }
+
+    .arrow3::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow4 {
+        margin-top: -2vw;
+        margin-left: 45.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow4::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow5 {
+        margin-top: 2vw;
+        margin-left: 3.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+    }
+
+    .arrow5::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow6 {
+        margin-top: -2vw;
+        margin-left: 24.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow6::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow7 {
+        margin-top: -2vw;
+        margin-left: 40.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+    }
+
+    .arrow7::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow8 {
+        margin-top: -2vw;
+        margin-left: 59.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow8::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow9 {
+        margin-top: 2vw;
+        margin-left: 49.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+    }
+
+    .arrow9::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow10 {
+        margin-top: -2vw;
+        margin-left: 67.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+
+    }
+
+    .arrow10::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow2 {
+        margin-top: 3vw;
+        margin-bottom: -3vw;
+        margin-left: 40vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+
+
+    }
+
+    .arrow2::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow11 {
+        margin-top: 2vw;
+        margin-left: 32.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+    }
+
+    .arrow11::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow12 {
+        margin-top: -2vw;
+        margin-left: 46.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow12::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow13 {
+        margin-top: 2vw;
+        margin-left: 30.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: inline-block;
+    }
+
+    .arrow13::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow14 {
+        margin-top: -2vw;
+        margin-left: 16.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow14::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow15 {
+        margin-top: -2vw;
+        margin-left: 46.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #005ebb;
+        display: block;
+        float: left;
+    }
+
+    .arrow15::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #005ebb;
+        top: 2vw;
+        left: -1vw;
+    }
+
+    .arrow16 {
+        margin-top: -2vw;
+        margin-left: 64.5vw;
+        position: relative;
+        height: 2vw;
+        width: 2vw;
+        background-color: #d01137;
+        display: block;
+        float: left;
+    }
+
+    .arrow16::before {
+        position: absolute;
+        content: "";
+        border: solid 2vw transparent;
+        border-top: solid 2vw #d01137;
+        top: 2vw;
+        left: -1vw;
+    }
+
+
 }
 
 

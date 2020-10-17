@@ -1569,6 +1569,7 @@ p {
 
     .info-l {
         height: 50vw;
+        padding-top: 4vw;
     }
 
     .info-l h4 {

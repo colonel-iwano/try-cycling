@@ -387,17 +387,18 @@ p {
 
 .image-up-b {
     flex: 0 0 60vw;
-    margin-top: 10vw;
+    margin-top: 5vw;
 
 
 }
 
 .image-thumbs-b {
     flex: 1;
-
     overflow: scroll;
     text-align: center;
-    flex-wrap: wrap;
+    height: 40vw;
+
+
 
 
 }
@@ -450,6 +451,7 @@ p {
     width: 60vw;
     background: none;
     height: 20vw;
+
 }
 
 

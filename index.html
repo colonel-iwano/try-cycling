@@ -18,12 +18,24 @@
             var style = '<link rel="stylesheet" href="css/animation.css">';
             $('head link:last').after(style);
         });
-
     </script>
 
 </head>
 
 <body>
+    <div id="loading">
+
+        <div class="spinner"><img src="images/loading.gif" alt=""></div>
+        <div class="loader">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </div>
+    </div>
     <div class="main-visual">
         <div class="mv-triangle"></div>
         <h1>TryCycling</h1>
@@ -368,6 +380,7 @@
                     <img src="images/allroadbikes.png" alt="">
                     <h4>オールラウンドロード</h4>
                 </div>
+
             </div>
         </div>
 
@@ -390,7 +403,6 @@
                 $('.image-up').children('img').attr('src', selectedImgSrc);
             });
         })
-
     </script>
     <script>
         $(function() {
@@ -406,7 +418,6 @@
                 // $('.'+$(this).attr('id')).toggle();
             });
         });
-
     </script>
     <script>
         $(function() {
@@ -420,7 +431,6 @@
                 $('.image-up-b').children('img').attr('src', selectedImgSrc);
             });
         })
-
     </script>
     <script>
         $(function() {
@@ -436,32 +446,21 @@
                 // $('.'+$(this).attr('id')).toggle();
             });
         });
-
     </script>
     <script>
-        // $(function() {
-        //   $(window).on('scroll', function() {
-        //   let triggerClass = $('.run-section1'); //トリガーとなるクラス
-        //   animateClass = ('run-bike-b');
+        $(function() {
+            var loader = $('#loading');
 
-        //   $(triggerClass).each(function() {
-        //      let scroll = $(window).scrollTop(), //スクロール位置を取得
-        //          triggerTop = $(this).offset().top, //指定要素のY座標
-        //         windowHeight = $(window).height(); //ウィンドウの高さ
-        // 要素が画面中央に来た時に発火
-        //      if (scroll > triggerTop - windowHeight / 3) {
-        //           $(this).addClass(animateClass);
-        //     }
-        //        });
-        //  });
-        //     });
 
+
+            //ページの読み込みが完了してなくても3秒後にアニメーションを非表示にする
+            setTimeout(function() {
+                loader.fadeOut();
+            }, 3000);
+        });
     </script>
 
 
 
 
-</body>
-
-
-</html>
+</body></html>

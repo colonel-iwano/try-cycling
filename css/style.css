@@ -17,6 +17,105 @@ body {
 
 
 
+#loading {
+    width: 100vw;
+    height: 100vh;
+    transition: all 1s;
+    background-color: #fff;
+    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.spinner {
+    width: 20vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+
+}
+
+.loader {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.spinner img {
+    width: 100%;
+
+}
+
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1.0);
+        opacity: 0;
+    }
+}
+
+.loader span {
+    font-size: 2vw;
+    display: inline-block;
+    margin: 0 -.05em;
+    animation: loading 1.4s infinite alternate;
+}
+
+.loader span:nth-child(2) {
+    animation-delay: .1s;
+}
+
+.loader span:nth-child(3) {
+    animation-delay: .2s;
+}
+
+.loader span:nth-child(4) {
+    animation-delay: .3s;
+}
+
+.loader span:nth-child(5) {
+    animation-delay: .4s;
+}
+
+.loader span:nth-child(6) {
+    animation-delay: .5s;
+}
+
+.loader span:nth-child(7) {
+    animation-delay: .6s;
+}
+
+@keyframes loading {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(15px);
+    }
+}
+
+/* コンテンツ部分の装飾 */
+.gallery {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
 
 
 }
